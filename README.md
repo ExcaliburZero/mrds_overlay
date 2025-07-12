@@ -28,3 +28,9 @@ To setup and use the overlay, follow the instructions below:
 ### Each subsequent usage
 1. Run DeSmuME and start the ROM for the game
 2. In the menu bar, click on `Tools > Lua Scripting > overlay.lua`
+
+## FAQs
+### Running the overlay makes the game slow down / lag. How can I fix this?
+If you are running DeSmuMe with a GPU Scaling Factor of 3 or higher (in `Config > 3D Settings`) the game might slow down or lag on some game screens.
+
+Currently the only workaround I know for this is to set the GPU Scaling Factor to 2 or 1.
