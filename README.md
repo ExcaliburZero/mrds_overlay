@@ -2,6 +2,7 @@
 DeSmuME overlay for the game Monster Rancher DS that displays hidden game info.
 
 ![Screenshot showing the monster's stress, fatigue, and lifespan shown on the Ranch screen.](screenshots/hidden_stats_on_ranch_screen.png)
+![Screenshot showing changes to the monster's stress, fatigue, and lifespan .](screenshots/hidden_stats_changes.png)
 
 ## Features
 * Displays your monster's stress, fatigue, and lifespan.
