@@ -1,9 +1,11 @@
 # mrds_overlay
 DeSmuME overlay for the game Monster Rancher DS that displays hidden game info.
 
-## Related links
-* [mrds_extract](https://github.com/ExcaliburZero/mrds_extract) - Set of tools for extracting data from and working with save data for Monster Rancher DS. 
-* [FCEUX Lua API docs](https://fceux.com/web/help/LuaScripting.html) - Documentation for the Lua scripting API that DeSmuME provides.
+![Screenshot showing the monster's stress, fatigue, and lifespan shown on the Ranch screen.](screenshots/hidden_stats_on_ranch_screen.png)
+
+## Features
+* Displays your monster's stress, fatigue, and lifespan.
+* Shows changes to your monster's stress, fatigue, and lifespan.
 
 ## Usage
 To setup and use the overlay, follow the instructions below:
@@ -34,3 +36,7 @@ To setup and use the overlay, follow the instructions below:
 If you are running DeSmuMe with a GPU Scaling Factor of 3 or higher (in `Config > 3D Settings`) the game might slow down or lag on some game screens.
 
 Currently the only workaround I know for this is to set the GPU Scaling Factor to 2 or 1 and then restart DeSmuME.
+
+## Related links
+* [mrds_extract](https://github.com/ExcaliburZero/mrds_extract) - Set of tools for extracting data from and working with save data for Monster Rancher DS. 
+* [FCEUX Lua API docs](https://fceux.com/web/help/LuaScripting.html) - Documentation for the Lua scripting API that DeSmuME provides.
