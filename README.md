@@ -18,9 +18,9 @@ To setup and use the overlay, follow the instructions below:
 4. Extract the `lua5.1.dll` file from the zip file you downloaded
 5. Move `lua5.1.dll` to the same folder where your DeSmuME executable is
 6. Rename `lua5.1.dll` to `lua51.dll`
-7. Download the overlay lua script at the following link:
-    * https://raw.githubusercontent.com/ExcaliburZero/mrds_overlay/refs/heads/main/overlay.lua
-    * Right click and `Save Page As`
+7. Download the `overlay.lua` script for the latest release at the following link:
+    * https://github.com/ExcaliburZero/mrds_overlay/releases
+    * Under the `Assets` header, click on the `overlay.lua` link to download file
 8. Run DeSmuME and start the ROM for the game
 9. In the menu bar, click on `Tools > Lua Scripting > New Lua Script Window...`
 10. Click the `Browse...` button and select the `overlay.lua` file your downloaded
