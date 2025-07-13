@@ -26,7 +26,6 @@ local changes_previous_monster = {
 function show_stat_change(stat_name, monster, max_digits, offset)
     offset = offset - 1 -- Allow +/- sign to be over the colon
     if changes_previous_monster[stat_name] ~= monster[stat_name] then
-        current = monster[stat_name]
         change = monster[stat_name] - changes_previous_monster[stat_name]
         abs_change = math.abs(change)
 
