@@ -38,7 +38,7 @@ If you are running DeSmuMe with a GPU Scaling Factor of 2 or higher (in `Config 
 
 Currently the only workarounds I know for this is are to do one of the following:
 
-* Set the 3D Rendering Engine to one that supports GPU rendering, such as `OpenGL 3.2` **(recommended)**
+* Set the 3D Rendering Engine (in `Config > 3D Settings`) to one that supports GPU rendering, such as `OpenGL 3.2` **(recommended)**
 * Set the GPU Scaling Factor to 2 or 1 and then restart DeSmuME
 
 ## Related links
