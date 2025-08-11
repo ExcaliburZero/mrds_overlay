@@ -34,9 +34,12 @@ To setup and use the overlay, follow the instructions below:
 
 ## FAQs
 ### Running the overlay makes the game slow down / lag. How can I fix this?
-If you are running DeSmuMe with a GPU Scaling Factor of 3 or higher (in `Config > 3D Settings`) the game might slow down or lag on some game screens.
+If you are running DeSmuMe with a GPU Scaling Factor of 2 or higher (in `Config > 3D Settings`) and using CPU rendering, the game might slow down or lag on some game screens.
 
-Currently the only workaround I know for this is to set the GPU Scaling Factor to 2 or 1 and then restart DeSmuME.
+Currently the only workarounds I know for this is are to do one of the following:
+
+* Set the 3D Rendering Engine to one that supports GPU rendering, such as `OpenGL 3.2` **(recommended)**
+* Set the GPU Scaling Factor to 2 or 1 and then restart DeSmuME
 
 ## Related links
 * [mrds_extract](https://github.com/ExcaliburZero/mrds_extract) - Set of tools for extracting data from and working with save data for Monster Rancher DS. 
